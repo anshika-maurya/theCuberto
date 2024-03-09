@@ -50,6 +50,9 @@
         padding: 0 2vw;
         font-size: 12vw;
         letter-spacing: -1.8px;
+        color: #000000c3;
+        -webkit-text-stroke: 0;
+        line-height: 0.8;
        
     }
 
