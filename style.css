@@ -86,7 +86,7 @@ html, body {
 #homemain .headings h1{
 
     /* these 2 property show text cool.. */
-    color: transparent;
+    color: white;
     -webkit-text-stroke: 1px #000;
 
     font-size: 7vw;
