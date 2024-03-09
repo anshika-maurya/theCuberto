@@ -253,6 +253,8 @@
         color: #e6e6e6;
         margin: 23vw -1vw;
         margin-top: 28.2vw;
+        display: flex;
+        flex-wrap: wrap;
        
     }
     .information{
