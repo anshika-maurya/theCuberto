@@ -52,7 +52,7 @@
         letter-spacing: -1.8px;
         color: #000000c3;
         -webkit-text-stroke: 0;
-        line-height: 0.8;
+        line-height: 1;
        
     }
 
@@ -252,12 +252,12 @@
     }
     .container-black .new h1{
         font-size: 11vw;
-        width: 130%;
+        width: 100%;
+        text-align: center;
         color: #e6e6e6;
         margin: 23vw -1vw;
         margin-top: 28.2vw;
-        display: flex;
-        flex-wrap: wrap;
+        
        
     }
     .information{
