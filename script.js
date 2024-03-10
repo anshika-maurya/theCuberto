@@ -28,7 +28,7 @@ var action = gsap.timeline({
     trigger: ".container",
     pin: true,   
     start: 'top top', 
-    end:'+=4600',
+    end:'+=2600',
     scrub: 0.3,
    
   },
