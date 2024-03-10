@@ -1,5 +1,6 @@
-@media screen and (max-width: 991px){
-    
+
+ @media screen and (max-width: 991px){
+   
     #nav{
         padding: 5px 3px;
         gap: 0;
@@ -37,6 +38,7 @@
     #homemain h1{
         letter-spacing: -.19vw;
         font-size: 4.3vw;
+        color: #000000c3;
     }
    
     .headings{
@@ -50,9 +52,9 @@
         padding: 0 2vw;
         font-size: 12vw;
         letter-spacing: -1.8px;
-        color: #000000c3;
+        color: #4642429d;
         -webkit-text-stroke: 0;
-        line-height: 1;
+        line-height: 1.1;
        
     }
 
@@ -69,6 +71,7 @@
         padding-left: 7.4vw;
         padding-bottom: 0;
         padding-top: 11vw;
+        
        
     }
     #homelast p{
@@ -76,14 +79,14 @@
         font-size: 5vw;
         font-weight: 400;
         letter-spacing: -.05vw;
-        color: #000000da;
+        color: #000000f1;
     
     }
     #featured{
        
         padding: 5vw 0;
-        background-color: #000;
-        /* background-color: green; */
+        background-color: #000000e7;
+        
         width: 100vw;
         background-image: none;
        
@@ -95,11 +98,11 @@
     }
     .fheading>h1{
         font-size: 12vw;
-        color: #fff;
+        color: #ffffffe4;
     }
     .fheading>h1:nth-child(2){
         color: transparent;
-        -webkit-text-stroke: 1px #fff;
+        -webkit-text-stroke: 1px #ffffffe0;
     }
     #fimages{
        
@@ -127,16 +130,16 @@
         font-size: 6vw;
         margin: 1.7vw 0;
         letter-spacing: -.1vw;
-        color: #fff;
+        color: #ffffffe0;
      }
      .fleftelm h3{
         font-size: 4.2vw;
-        color: #fff;
+        color: #ffffffe0;
         line-height: 2;
         
      }
      .fleftelm h4{
-        color: #fff;
+        color: #ffffffe0;
      }
      #fright{
         width: 100%;
@@ -145,14 +148,15 @@
         
     }
     .btndiv button{
-        padding: 3vw 6vw;
-        margin-top: 10vw;
-        margin-bottom: 5vw;
+        padding: 5vw 8vw;
+        margin-right: 6.8vw;
+        margin-top: 15vw;
+        margin-bottom: 11vw;
         border-radius: 100px;
-        border: 2px solid #e6e6e6;
-        background-color: #fff;
+        border: 2px solid #e6e6e6e8;
+        background-color: #ffffffc8;
         font-size: 7vw;
-       
+        color: #000000c1;
         
     }
 
@@ -163,99 +167,120 @@
         align-items: center;
     }
     #dev h1{
-        font-size: 9vw;
-        width: 100%;
+        font-size: 10vw;
+        width: 120%;
         line-height: 1;
         letter-spacing: -.3vw;
-        text-align: center;
+        margin-right: 8vw;
+        color: #000000be;
        
        
     }
     #dev p{
-        font-size: 4.5vw;
-        margin-top: 8vw;
+        font-size: 4.3vw;
+        margin-top: 7vw;
+        margin-right: 7vw;
+        margin-bottom: 3vw;
         letter-spacing: -.5px;
         width: 120%;
-        text-align: center;
+        color: #000000af;
     }
     .slides{
-        padding: 18vw 10vw;
+        padding: 15vw 1vw;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        
     }
     .slide{
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
     }
     .slide .img{
+       width: 100%;
        object-fit: cover;
        object-position: center;
-       border-radius: 5px;
+       border-radius: 2px;
 
     }
     .slide .tag{
-       
-        width: fit-content;
-        margin: 30px 0;
-        padding: 20px 32px;
-        background-color: #f7f7f7;
+       display: none;
     }
     .slide h3{
-        font-size: 5vw;
-        text-align: center;
-        padding-bottom: 7vw;
+        font-size: 4.8vw;
+        padding: 7vw 3vw;
+        margin-bottom: 7.5vw;
+        color: #00000097;
         
     }
+    
+    .new{
+        padding: 1vw 0vw;
+        color: #000000c5;
+    }
     .new h1{
-        font-size: 10.8vw;
+        font-size: 9.8vw;
         width: 60%;
         margin-top: 8vw;
+        padding: 1vw 2vw;
     }
 
     .new .slides{
-        padding: 18vw 10vw;
+        padding: 18vw 0vw;
         display: flex;
+        margin: 0 0;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        
     }
     .new .slide{
-        width: 140%;
+        width: 100%;
         display: flex;
-        gap: 12vw;
+        gap: 10vw;
         flex-direction: column;
-        align-items: center;
+        width: 100%;
+       
     }
     .new .slide .img{
        object-fit: cover;
        object-position: center;
        border-radius: 5px;
+       margin-left: 0;
+       width: 100%;
     }
+    .new .slide:nth-child(3){
+       width: 115vw;
+    }
+
+    .new .slide .img .imagee{
+       height: 300px;
+       width: 105%;
+       
+         
+     }
     
     .new .slide .para{
-        margin-top: 3vw;
-        margin-left: 2vw;
-        
+        margin: -1vw 1vw;
+        margin-bottom: 12vw;
+       
     }
     
     .new .slide .para p{
-        font-size: 7.4vw;
+        font-size: 6vw;
+        color: #00000093;
         
     }
     .new .slide #pg{
-        margin-bottom: 2vw;
-        font-size: 5vw ;
+       display: none;
     }
     .container-black .new h1{
-        font-size: 10.9vw;
-        width: 103%;
-        
-        color: #e6e6e6;
-        margin: 23vw -1vw;
+        font-size: 12vw;
+        width: 100%;
+        text-align: center;
+        color: #e6e6e6d7;
+        margin: 23vw 1vw;
         margin-top: 28.2vw;
         
        
@@ -268,9 +293,9 @@
        font-size: 5vw;
        padding: 4vw 6vw;
         margin-top: 10vw;
-       
+       color: #ffffffe0;
         border-radius: 100px;
-        border: 2px solid #e6e6e6;
+        border: 2px solid #ffffff8c;
         background-color: transparent;
        
       
@@ -293,7 +318,7 @@
         text-align: center;
     }
     .information .info h4{
-        color: #e6e6e6;
+        color: #ffffffe0;
         font-size: 4vw;
         margin-left: 13vw;
         margin-top: 2vw;
