@@ -51,10 +51,10 @@
     #homemain .headings h1{
         padding: 0 2vw;
         font-size: 12vw;
-        letter-spacing: -1.8px;
-        color: #4642429d;
+        letter-spacing: -1.6px;
+        color: #323131e7;
         -webkit-text-stroke: 0;
-        line-height: 1.1;
+        line-height: 1.4;
        
     }
 
@@ -263,13 +263,14 @@
     
     .new .slide .para{
         margin: -1vw 1vw;
-        margin-bottom: 12vw;
+        margin-bottom: 22vw;
+        margin-top: 0;
        
     }
     
     .new .slide .para p{
-        font-size: 6vw;
-        color: #00000093;
+        font-size: 5.5vw;
+        color: #00000069;
         
     }
     .new .slide #pg{
@@ -278,22 +279,23 @@
     .container-black .new h1{
         font-size: 12vw;
         width: 100%;
-        text-align: center;
-        color: #e6e6e6d7;
-        margin: 23vw 1vw;
+        /* text-align: center; */
+        color: #e6e6e6da;
+        margin: 23vw 3vw;
         margin-top: 28.2vw;
         
        
     }
     .information{
        flex-direction: column; 
+       text-align: center;
       
     }
     .information .info h3 a{
        font-size: 5vw;
        padding: 4vw 6vw;
         margin-top: 10vw;
-       color: #ffffffe0;
+       color: #ffffffb9;
         border-radius: 100px;
         border: 2px solid #ffffff8c;
         background-color: transparent;
@@ -318,7 +320,7 @@
         text-align: center;
     }
     .information .info h4{
-        color: #ffffffe0;
+        color: #ffffffb9;
         font-size: 4vw;
         margin-left: 13vw;
         margin-top: 2vw;
