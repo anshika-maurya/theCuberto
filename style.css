@@ -22,7 +22,7 @@ html, body {
 
 #main{
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffffe0;
     overflow-x: hidden;
 }
 
@@ -31,6 +31,8 @@ html, body {
     min-height: 100vh;
    
 }
+
+
 
 #nav{
     display: flex;
@@ -54,7 +56,7 @@ html, body {
 #nav a{
     text-decoration: none;
     font-weight: 400;
-    color: #000;
+    color: #000000e8;
     font-size: 1vw;
     letter-spacing: -1px;    
 }
@@ -77,6 +79,7 @@ html, body {
     font-weight: 500;
     letter-spacing: -.1vw;
     font-size: 1.34vw;
+    color: #000000cf;
 }
 
 .headings{
@@ -86,9 +89,9 @@ html, body {
 #homemain .headings h1{
 
     /* these 2 property show text cool.. */
-    color: white;
-    -webkit-text-stroke: 1px #000;
-
+    color: transparent;
+    -webkit-text-stroke: 1px #000000e2;
+    
     font-size: 7vw;
     font-weight: 900;
     letter-spacing: -8px;
@@ -96,11 +99,12 @@ html, body {
 }
 
 #homemain .headings h1:hover{
-    color: #000;
+    color: #000000da;
 }
 
 #homelast{
     padding: 5vw 15vw;
+    color: #0000007c;
 }
 
 #homelast p{
@@ -118,12 +122,12 @@ html, body {
 
 #featured{
     padding: 10vw 15vw;
-    background-image: linear-gradient( white 1%, #dd6a2c4d 9%, #e0b5575a, #96c97e6f, #0091c155, #c8c6c761, #c8c6c750, #c8c6c769, #c8c6c710);
+    background-image: linear-gradient( white 1%, #dd6a2c4d 9%, #e0b55770, #96c97e57, #0091c163, #c8c6c76d, #c8c6c758, #c8c6c710);
     
    
 }
 #featured .color{
-    background-color: red;
+    
     width: 100vw;
     height: 100vh;
 }
@@ -132,13 +136,14 @@ html, body {
     line-height: 1;
     font-size: 4vw;
     font-weight: 400;
+    color: #000000cf;
 }
 
 /* > use for directly */
 
 .fheading>h1:nth-child(2){
     color: transparent;
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000000cf;
 
 }
 img{
@@ -182,10 +187,12 @@ img:hover{
    font-weight: 400;
    text-transform: capitalize;
    margin: 1.5vw 0;
+   color: #000000cf;
 }
 .fleftelm h3{
    font-size: 1.3vw;
-   font-weight: 400;  
+   font-weight: 400; 
+   color: #000000cf; 
 }
 
 .fleftelm h4{
@@ -273,6 +280,7 @@ img:hover{
     border: 2px solid #e6e6e6;
     background-color: #fff;
     font-size: 1.7vw;
+    color: #000000b6; 
    
     
 }
@@ -280,6 +288,7 @@ img:hover{
 #dev{
     width: 100%;
     padding: 5vw 15vw;
+    color: #000000b9; 
 }
 
 #dev h1{
@@ -293,6 +302,7 @@ img:hover{
     margin-top: 3vw;
     letter-spacing: -.5px;
     width: 60%;
+    color: #0000008d; 
 }
 
 .slides{
@@ -327,17 +337,20 @@ img:hover{
     margin: 20px 0;
     padding: 10px 22px;
     background-color: #f7f7f7;
+    color: #000000a7; 
 }
 
 .slide h3{
     font-size: 1.4vw;
     font-weight: 400;
     letter-spacing: -.5px;
+    color: #00000092; 
 }
 
 .new{
     width: 100%;
     padding: 5vw 15vw;
+    color: #000000b9;
 }
 
 .new h1{
@@ -345,6 +358,7 @@ img:hover{
     font-weight: 400;
     width: 40%;
     line-height: 1;
+    
 }
 .new .slides{
     padding: 5vw 0;
@@ -390,6 +404,7 @@ img:hover{
 .new .slide .para{
     margin-top: 4vw;
     margin-left: 2vw;
+    color: #000000ad;
     
 }
 
@@ -406,10 +421,11 @@ img:hover{
     margin-left: 2vw;
     letter-spacing: .012vw;
     font-weight: 400;
+    color: #00000099;
 }
 
 .container-black{
-    background-color: #000;
+    background-color: #000000e7;
     
 }
 
