@@ -11,10 +11,10 @@
     background-color: #000;
 }
 
-html, body {
+body {
     width: 100vw;
     height: 100vh;
-    overflow: none;
+    overflow-x: hidden;
    
 }
 
@@ -122,7 +122,8 @@ html, body {
 
 #featured{
     padding: 10vw 15vw;
-    background-image: linear-gradient( white 1%, #dd6a2c4d 9%, #e0b55770, #96c97e57, #0091c163, #c8c6c76d, #c8c6c758, #c8c6c710);
+    background-image: linear-gradient( rgba(255, 255, 255, 0.858) 1%, #dd6a2c2f 9%, #e0b5573a, #96c97e37, #0091c120, #c8c6c72e, #c8c6c722, #c8c6c711);
+    
     
    
 }
