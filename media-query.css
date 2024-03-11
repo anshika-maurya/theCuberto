@@ -279,7 +279,8 @@
     .container-black .new h1{
         font-size: 13vw;
         width: 100%;
-        /* text-align: center; */
+        line-height: 1.3;
+        text-align: center;
         color: #e6e6e6da;
         margin: 23vw 3vw;
         margin-top: 28.2vw;
