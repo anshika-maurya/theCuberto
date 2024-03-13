@@ -333,9 +333,9 @@
         display: none;
     }
     .footer-copyright{
-        
-       
-        font-size: 3.2vw;
+        margin-left: 2.2rem;
+        margin-right: 2.2rem;
+        font-size: .6rem;
         padding-bottom: 2rem;
         margin-top: 2rem;
         padding-top: 1.15rem;
